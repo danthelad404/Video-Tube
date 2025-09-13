@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Providing Up-To-Date and meaningful content to match desire">
+    <meta name="keywords" content="data science, software development">
+    <meta name="author" content="Olaitan Daniel">
+    <meta name="robots" content="index, follow">
+    <meta property="og:title" content="VideoTube">
+    <meta property="og:description" content="Providing Up-To-Date and meaningful content to match desire">
+    <meta property="og:image" content="">
+    <meta name="twitter:title" content="VideoTube">
+    <meta name="twitter:description" content="Providing Up-To-Date and meaningful content to match desire">
+    <meta name="twitter:image" content="">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>Video Sharing App - Easy Tutorials</title>
+    <link rel="stylesheet" href="Styles.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <!-- --------------------- Navbar -------------------------- -->
+    <nav>
+        <div class="nav-left">
+            <img src="menu.png" alt="" onclick="showMenu()" class="menu-icon">
+            <a href="Index.html"><img src="Vid tube logo.jpg" alt="" class="logo"> </a>           
+            <h1>VidTube</h1>
+        </div>
+        <div class="nav-input">
+            <input type="text" placeholder="Search">
+            <img src="search.png" alt="" class="search">
+            <img src="microphone.png" alt="" class="microphone">
+        </div>
+        <div class="nav-right">
+            <img src="video-camera.png" alt="" class="camera">
+            <img src="app.png" alt="" class="app">
+            <img src="bell.png" alt="" class="bell">
+            <img src="Iron man pic.jpg" alt="" class="nav-last-child">
+        </div>
+    </nav> 
+    <div class="menu">
+        <img src="close.png" alt="" onclick="hideMenu()" class="close-icon">
+        <ul>
+           <a href="Index.html">
+                <li>
+                    <img src="Home icon.png" alt="">
+                    <p>Home</p>
+                </li>
+           </a>
+            <li>
+                <img src="ui-element.png" alt="">
+                <p>Shorts</p>
+             </li>
+            <li>
+                <img src="playlist 3.png" alt="">
+                <p>Suscribtion</p>
+            </li>
+        </ul>
+        <ul>
+            <div class="section-name">
+                <h3>You</h3>
+                <span>❯</span>
+            </div>
+            <li>
+                <img src="recent.png" alt="">
+                <p>History</p>
+            </li>
+            <li>
+                <img src="playlist.png" alt="">
+                <p>Playlist</p>
+            </li>
+            <li>
+                <img src="clock.png" alt="">
+                <p>Watch Later</p>
+            </li>
+            <li>
+                <img src="like (1).png" alt="">
+                <p>Liked Videos</p>
+            </li>
+            <li>
+                <img src="download.png" alt="" class="last-child">
+                <p>Downloads</p>
+            </li>
+        </ul>
+        <ul>
+            <h3>Suscribtion</h3>
+            <li>
+                <img src="list_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.png" alt="">
+                <p>All Downloads</p>
+            </li>
+        </ul>
+        <ul>
+            <h3>Explore</h3>
+            <li>
+                <img src="newspaper-folded.png" alt="">
+                <p>News</p>
+            </li>
+            <li>
+                <img src="trophy.png" alt="">
+                <p>Sports</p>
+            </li>
+            <li>
+                <img src="Home icon.png" alt="">
+            </li>
+        </ul>
+        <ul>
+            <h3>More From VidTube</h3>
+            <li>
+                <img src="vecteezy_youtube-music-icon-logo-symbol_27179361 (1).png" alt="">
+                <p>VidTube Music</p>
+            </li>
+            <li>
+                <img src="vecteezy_youtube-logo-with-a-red-play-button_57184748.png" alt="">
+                <p>VidTube Kids</p>
+            </li>
+        </ul>
+        <ul>
+            <li>
+                <img src="setting.png" alt="">
+                <p>Settings</p>
+            </li>
+            <li>
+                <img src="flags.png" alt="">
+                <p>Report History</p>
+            </li>
+            <li>
+                <img src="help.png" alt="">
+                <p>Help</p>
+            </li>
+            <li>
+                <img src="feedback.png" alt="">
+                <p>Send Feedback</p>
+            </li>
+        </ul>
+        <div>
+            <a href="#">About</a>
+            <a href="#">Press</a>
+            <a href="#">Copyright</a>
+            <a href="#">Content</a>
+            <a href="#">Contact Us</a>
+            <a href="#">Advertise</a>
+            <a href="#">Developers</a>
+        </div>
+        <div class="li-last">
+            <a href="#">Terms</a>
+            <a href="#">Privacy</a>
+            <a href="#">Policy & Safety</a>
+            <a href="#">How VidTube Works</a>
+            <a href="#">Test New Features</a>
+            <p>VidTube &copy; 2025. All Right Reserved</p>
+        </div>
+    </div>
+    <div class="overlay" onclick="hideMenu()"></div>
+    <main>
+        <div class="profile-main-content">
+            <video src="CSS Tips And Tricks I Wish I Knew Before.mp4" width="900" controls autoplay></video>
+            <h2>Best VideoTube Channel To Learn Web Development</h3>
+            <a href="#" class="a_tags">#coding</a>
+            <a href="#" class="a_tags">#html</a>
+            <a href="#" class="a_tags">#css</a>
+            <a href="#" class="a_tags">#js</a>
+            <div class="video-socials">
+                <p>1525 Views <span>&middot;</span> 2 days ago</p>
+                <div class="reaction-img">
+                    <div class="react">
+                        <img src="like (1).png" alt="">
+                        <p>125</p>
+                    </div>
+                    <div class="react">
+                        <img src="share.png" alt="">
+                        <p>5</p>
+                    </div>
+                    <div class="react">
+                        <img src="playlist-folder.png" alt="">
+                        <p>10</p>
+                    </div>
+                </div>
+            </div>
+            <div class="comments-site">
+                <div class="profile">
+                    <img src="Iron man pic.jpg" alt="">
+                    <div class="profile-acc">
+                        <div class="acc-des">
+                            <h4>Easy Tutorials</h4>
+                            <p>500k Suscribers</p>
+                        </div>
+                        <button>Suscribe</button>
+                    </div>
+                </div>
+                <div class="comment-box">
+                    <div class="head-comment">
+                        <p>Channel That Makes Learning Easy
+                        <p>Suscribe Easy Tutorial To Watch More Tutorials on Web Development</p>
+                    </div>
+                </div>
+                <div class="post-comment">
+                    <p>134 Comments</p>
+                    <div class="post">
+                        <img src="Iron man pic.jpg" alt="">
+                        <input type="text" placeholder="Write comments">
+                    </div>
+                </div>
+                <div class="post-comment">
+                    <div class="pro">
+                        <img src="Iron man pic.jpg" alt="">
+                        <h4>Jack Nicholson</h4>
+                        <p>2 days ago</p>
+                    </div>
+                    <p class="comms">A global computer network providing varieties of information and communication facilities, consisting of interconnected networks using standard communication protocols</p>
+                    <div class="comments-stats">
+                        <img src="like (1).png" alt="">
+                        <p>REPLY</p>
+                        <a href="#">All Replies</a>
+                    </div>
+                </div>
+                <div class="post-comment">
+                    <div class="pro">
+                        <img src="Iron man pic.jpg" alt="">
+                        <h4>Jack Nicholson</h4>
+                        <p>2 days ago</p>
+                    </div>
+                    <p class="comms">A global computer network providing varieties of information and communication facilities, consisting of interconnected networks using standard communication protocols</p>
+                    <div class="comments-stats">
+                        <img src="like (1).png" alt="">
+                        <p>REPLY</p>
+                        <a href="#">All Replies</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- -------------------- Right sidebar ------------------- -->
+        <div class="right-sidebar">
+            <div class="recommended-video">
+                <img src="Bike With Smoke.jpg" alt="">
+                <div class="full-content">
+                    <div class="left-content">
+                        <img src="Aunty Kehinde.jpg" alt="">
+                    </div>
+                    <div class="video-info">
+                        <h4>Best channel that help you be a web developer</h4>
+                        <p>Easy Tutorials</p>
+                        <p>15k Views</p>
+                   </div>
+                </div>
+            </div>
+            <div class="recommended-video">
+                <img src="Bike.jpg" alt="">
+                <div class="full-content">
+                    <div class="left-content">
+                        <img src="Aunty Kehinde.jpg" alt="">
+                    </div>
+                    <div class="video-info">
+                        <h4>Best channel that help you be a web developer</h4>
+                        <p>Easy Tutorials</p>
+                        <p>15k Views</p>
+                   </div>
+                </div>
+            </div>
+            <div class="recommended-video">
+                <img src="lambocarphoto Lamborghini huracan 😍😘 Pic by.jpg" alt="">
+                <div class="full-content">
+                    <div class="left-content">
+                        <img src="Aunty Kehinde.jpg" alt="">
+                    </div>
+                    <div class="video-info">
+                        <h4>Best channel that help you be a web developer</h4>
+                        <p>Easy Tutorials</p>
+                        <p>15k Views</p>
+                   </div>
+                </div>
+            </div>
+            <div class="recommended-video">
+                <img src="Lo Fi Chill.jpg" alt="">
+                <div class="full-content">
+                    <div class="left-content">
+                        <img src="Aunty Kehinde.jpg" alt="">
+                    </div>
+                    <div class="video-info">
+                        <h4>Best channel that help you be a web developer</h4>
+                        <p>Easy Tutorials</p>
+                        <p>15k Views</p>
+                   </div>
+                </div>
+            </div>
+            <div class="recommended-video">
+                <img src="Highway.jpg" alt="">
+                <div class="full-content">
+                    <div class="left-content">
+                        <img src="Aunty Kehinde.jpg" alt="">
+                    </div>
+                    <div class="video-info">
+                        <h4>Best channel that help you be a web developer</h4>
+                        <p>Easy Tutorials</p>
+                        <p>15k Views</p>
+                   </div>
+                </div>
+            </div>
+            <div class="recommended-video">
+                <img src="13,708 Breakdance Stock Photos, High-Res Pictures, and Images - Getty Images.jpg" alt="">
+                <div class="full-content">
+                    <div class="left-content">
+                        <img src="Aunty Kehinde.jpg" alt="">
+                    </div>
+                    <div class="video-info">
+                        <h4>Best channel that help you be a web developer</h4>
+                        <p>Easy Tutorials</p>
+                        <p>15k Views</p>
+                   </div>
+                </div>
+            </div>
+            <div class="recommended-video">
+                <img src="Cool Guy Shooting Gun.jpg" alt="">
+                <div class="full-content">
+                    <div class="left-content">
+                        <img src="Aunty Kehinde.jpg" alt="">
+                    </div>
+                    <div class="video-info">
+                        <h4>Best channel that help you be a web developer</h4>
+                        <p>Easy Tutorials</p>
+                        <p>15k Views</p>
+                   </div>
+                </div>
+            </div>
+            <div class="recommended-video">
+                <img src="Show Me Pictures of Speed Boats 4K HD Wallpapers (1).jpg" alt="">
+                <div class="full-content">
+                    <div class="left-content">
+                        <img src="Aunty Kehinde.jpg" alt="">
+                    </div>
+                    <div class="video-info">
+                        <h4>Best channel that help you be a web developer</h4>
+                        <p>Easy Tutorials</p>
+                        <p>15k Views</p>
+                   </div>
+                </div>
+            </div>
+            <div class="recommended-video">
+                <img src="1e41738f-ecdb-41aa-8a96-237f1a9c0bae.jpg" alt="">
+                <div class="full-content">
+                    <div class="left-content">
+                        <img src="Aunty Kehinde.jpg" alt="">
+                    </div>
+                    <div class="video-info">
+                        <h4>Best channel that help you be a web developer</h4>
+                        <p>Easy Tutorials</p>
+                        <p>15k Views</p>
+                   </div>
+                </div>
+            </div>
+            <div class="recommended-video">
+                <img src="download.jpg" alt="">
+                <div class="full-content">
+                    <div class="left-content">
+                        <img src="Aunty Kehinde.jpg" alt="">
+                    </div>
+                    <div class="video-info">
+                        <h4>Best channel that help you be a web developer</h4>
+                        <p>Easy Tutorials</p>
+                        <p>15k Views</p>
+                   </div>
+                </div>
+            </div>
+            <div class="recommended-video">
+                <img src="shooting,.jpg" alt="">
+                <div class="full-content">
+                    <div class="left-content">
+                        <img src="Aunty Kehinde.jpg" alt="">
+                    </div>
+                    <div class="video-info">
+                        <h4>Best channel that help you be a web developer</h4>
+                        <p>Easy Tutorials</p>
+                        <p>15k Views</p>
+                   </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="Script.js"></script>
+</body>
+</html>
